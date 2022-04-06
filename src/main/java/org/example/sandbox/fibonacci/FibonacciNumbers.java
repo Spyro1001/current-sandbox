@@ -11,7 +11,7 @@ public class FibonacciNumbers {
 
         FibonacciNumbers fn = new FibonacciNumbers();
 
-        for (int x = 0; x <= 100; x++) {
+        for (int x = 0; x <= 92; x++) {
             System.out.println("fib(" + x + ") = " + (fn.fib(x)));
         }
     }
@@ -31,7 +31,7 @@ public class FibonacciNumbers {
 
         Long value = dictionary.get(m);
 
-        if(value != null) {
+        if (value != null) {
             return value;
         }
 

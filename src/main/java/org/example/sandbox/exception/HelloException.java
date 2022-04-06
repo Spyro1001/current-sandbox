@@ -65,6 +65,5 @@ public class HelloException {
             e.printStackTrace();
         }
 
-
     }
 }
